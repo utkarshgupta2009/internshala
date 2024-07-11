@@ -1,16 +1,14 @@
-# internshala
 
-A new Flutter project.
+# Internshala Hiring Flutter App
 
-## Getting Started
+This Flutter application was developed as part of the Internshala hiring process, demonstrating mobile app development skills using the Flutter framework.
 
-This project is a starting point for a Flutter application.
+## Setup and Running
 
-A few resources to get you started if this is your first Flutter project:
+1. Clone the repository:
+2. Install dependencies:
+3. Update the base URL:
+Before running the app, update the API endpoint in `lib/utils/constants.dart`:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+String base_url = "Add the url here"
